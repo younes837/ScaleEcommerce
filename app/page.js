@@ -1,6 +1,11 @@
-import { Button } from "@/components/ui/button";
-import Image from "next/image";
+import { Hero } from "@/components/hero";
+import Navbar from "@/components/nav-bar";
 
 export default function Home() {
-  return <Button>Hello World</Button>;
+  return (
+    <>
+      <Navbar />
+      <Hero />
+    </>
+  );
 }
